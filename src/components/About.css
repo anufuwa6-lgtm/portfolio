@@ -1,0 +1,14 @@
+.about h2{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: orange;
+}
+.about ul{
+    list-style-type: none;
+   text-align: center;
+}
+.about li{
+     color: orange;
+     margin: 8px 0;
+}
