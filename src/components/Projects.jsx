@@ -28,5 +28,5 @@ function Projects() {
             )}
             </div>
         </section>
-    )
+    );
 }

@@ -24,8 +24,41 @@ export default function Skills() {
                     <div className='skill-bar'>
                         <div className='skill-fill' style={{width:'85%'}}></div>
                     </div>
+                    <div className='skill-header'>
+                        <FaJsSquare size={30} style={{marginRight:'8px'}}/>
+                        <span>JavaSript</span>
+                        <span>80%</span>
+                    </div>
+                    <div className='skill-bar'>
+                        <div className='skill-fill' style={{width:'80%'}}></div>
+                    </div>
+                    <div className='skill-header'>
+                        <FaReact size={30} style={{marginRight:'8px'}}/>
+                        <span>React</span>
+                        <span>75%</span>
+                    </div>
+                    <div className='skill-bar'>
+                        <div className='skill-fill' style={{width:'75%'}}></div>
+                    </div>
+                    <div className='skill-header'>
+                        <FaNodeJs size={30} style={{marginRight:'8px'}}/>
+                        <span>Node.js</span>
+                        <span>70%</span>
+                    </div>
+                    <div className='skill-bar'>
+                        <div className='skill-fill' style={{width:'70%'}}></div>
+                    </div>
+                    <div className='skill-header'>
+                        <FaDatabase size={30} style={{marginRight:'8px'}}/>
+                        <span>MongoDB</span>
+                        <span>65%</span>
+                    </div>
+                    <div className='skill-bar'>
+                        <div className='skill-fill' style={{width:'65%'}}></div>
+                    </div>
                 </div>
             </div>
+            </div>
         </section>
-    )
+    );
 }
