@@ -1,6 +1,6 @@
 import './About.css'
 export default function About() {
-    return(
+    return (
         <div className='about'>
             <h2>I'M a self taught developer skilled in Javascript,
                 <br/> React and backend technologies like Express and <br/> 

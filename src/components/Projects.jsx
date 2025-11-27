@@ -1,6 +1,6 @@
 import './Projects.css';
 
-function Projects() {
+export default function Projects() {
  const projects = [
   { title: "Crypto Dashboard", desc: "Track and manage crypto assets." },
   { title: "Movie Site", desc: "Browse and save your favorite movies." },

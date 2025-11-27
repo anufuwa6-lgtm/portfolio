@@ -1,11 +1,11 @@
 import './home.css';
-import heroImage from "../assets/hero.jpeg";
+import heroImage from "../assets/hero.jpg";
 
 export default function Home () {
     return (
         <div className='home'>
             <img src={heroImage} alt='Hero'/>
-            <h2><span>Hello I'm Ethan</span></h2>
+            <h2><span>Hello I'm Anuoluwapo</span></h2>
             <p>A passionate Web Developer creating clean and functonal designs</p>
             <div className='home-buttons'>
                 <button className='btn'
