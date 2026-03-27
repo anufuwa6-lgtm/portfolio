@@ -57,3 +57,24 @@ h2 {
 .whatsapp-float:hover {
   transform: scale(1.1);
 }
+.hireme-float {
+  position: fixed;
+  bottom: 200px;
+  right: 20px;
+  background: #d38d25;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  z-index: 99999;
+  transition: 0.3s ease;
+}
+.hireme-float:hover{
+background-color: rgb(100, 73, 6);
+transform: scale(1.1);
+}

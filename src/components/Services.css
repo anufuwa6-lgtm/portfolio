@@ -1,45 +1,33 @@
-.certificates-section {
+.services-section {
   padding: 4rem 1rem;
   background-color: #f9fafb;
 }
 
-.certificates-title {
+.services-name {
   text-align: center;
   font-size: 2.25rem; /* 36px */
   font-weight: 700;
   margin-bottom: 3rem;
   color: #111827;
 }
-.certificates h2 {
+.services h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 60px;
   color:black;
 }
 
-.certificates-grid {
+.services-grid {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   padding: 0 1rem;
 }
-
-@media (min-width: 640px) {
-  .certificates-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 768px) {
-  .certificates-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-.certificate-card {
+.services-card {
   background-color: #fff;
+  color: black;
   border-radius: 1rem;
   padding: 2rem 1.5rem;
   text-align: center;
@@ -47,23 +35,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.certificate-card:hover {
+.services-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-}
-
-.certificate-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.certificate-name {
-  font-size: 1.125rem;
-  font-weight: 600;
-  margin-bottom: 0.25rem;
-  color: #111827;
-}
-.certificate-year {
-  font-size: 0.75rem;
-  color: #9ca3af;
 }

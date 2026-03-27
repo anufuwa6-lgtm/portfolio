@@ -6,22 +6,15 @@ const certificates = [
     {name: "Frontend Masters-Advanced React",
      icon: "🎓",
      issuer: "Frontend Masters",
-     year: "2023"
-    },
-    {name: "AWS Certified Developer",
-        icon: "☁️",
-        issuer: "Amazon Web Services",
-        year: "2024"
+     year: "2025"
     },
     {name: "Google Analytics Certification",
         icon:"📊",
-        issuer:"Google",
-        year: "2022"
+        year: "2025"
     },
     {name: "MongoDB Basics",
         icon: "💾",
-        issuer: "MongoDB University",
-        year: "2023"
+        year: "2025"
     }
     
 ];
@@ -29,6 +22,13 @@ const certificates = [
 function Certificates () {
     return(
         <section id="certificates" className="certificates-section">
+                <motion.h2
+                      initial={{opacity: 0, y: 20}}
+                      whileInView={{opacity: 1, y: 0}}
+                      viewport={{once: true}}
+                      transition={{duration: 0.5}}>
+                       Certificates
+                </motion.h2>
             <div className="certificates-grid">
                 {certificates.map((cert, index) => (
                     <motion.div
@@ -39,9 +39,9 @@ function Certificates () {
                     viewport={{once: true}}
                     transition={{duration: 0.5, delay: index * 0.1}}
                     >
+                        Certificates
                     <div className="certificate-icon">{cert.icon}</div>
                     <h3 className="certificate-name">{cert.name}</h3>
-                    <p className="certificate-issuer">{cert.issuer}</p>
                     <p className="certificate-year">{cert.year}</p>
                     </motion.div>
                 ))}

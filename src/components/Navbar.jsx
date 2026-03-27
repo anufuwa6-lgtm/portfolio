@@ -13,7 +13,11 @@ export default function Navbar() {
         <li><a href="#about" onClick={() => setIsActive(false)}>About</a></li>
         <li><a href="#skills" onClick={() => setIsActive(false)}>Skills</a></li>
         <li><a href="#projects" onClick={() => setIsActive(false)}>Projects</a></li>
+        <li><a href="#certificates" onClick={() => setIsActive(false)}>Certificates</a></li>
+        <li><a href="#testimonials" onClick={() => setIsActive(false)}>Testimonials</a></li>
         <li><a href="#contact" onClick={() => setIsActive(false)}>Contact</a></li>
+        <li><a href="#services" onClick={() => setIsActive(false)}>Services</a></li>
+        <li><a href="#FAQ" onClick={() => setIsActive(false)}>FAQ</a></li>
       </ul>
 
       <div className="hamburger" onClick={() => setIsActive(!isActive)}>

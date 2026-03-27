@@ -6,12 +6,14 @@ import Projects from './components/Projects.jsx';
 import Skills from './components/Skills.jsx';
 import Certificates from './components/Certificates.jsx';
 import Navbar from './components/Navbar.jsx';
-import Testimonials from  './components/Testimonials.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer';
+import FAQ from './components/FAQ.jsx';
+import Services from './components/Services.jsx';
 import {motion} from "framer-motion";
 import WhatsappFloat from './components/WhatsappFloat.jsx';
 import BackToTop from './BackToTop.jsx';
+import Hiremefloat from './Hiremefloat.jsx';
 
 
 export default function App() {
@@ -56,6 +58,9 @@ export default function App() {
           <Certificates/>
           </motion.div>
         </section>
+        <section id='services'>
+          <Services/>
+        </section>
         <section id='projects'>
           <motion.div
           initial={{opacity: 0, y: 40}}
@@ -64,9 +69,6 @@ export default function App() {
           transition={{duration: 0.6, ease:"easeOut"}}>
           <Projects/>
           </motion.div>
-        </section>
-        <section id='testimonials'>
-         <Testimonials />
         </section>
         <section id='contact'>
           <motion.div
@@ -77,10 +79,15 @@ export default function App() {
           <Contact/>
           </motion.div>
         </section>
+        <section>
+          <FAQ/>
+        </section>
       </main>
       <Footer/> 
+      <Hiremefloat />
       <WhatsappFloat/>
       <BackToTop />
+      
     </div>
 
   );
